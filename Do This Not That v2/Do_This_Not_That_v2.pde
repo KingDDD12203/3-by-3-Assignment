@@ -61,10 +61,10 @@ void textSetup() { //To Main Program
 }//End textSetup
 
 void textDraw() { //To Main Program
-  //Note: visualization rectangle is in main program
+
   fill(orange); //Ink, hexidecimal copied from Color Selector
-  textAlign (CENTER, CENTER); //Align X&Y, see Processing.org / Reference
-  //Values: [LEFT | CENTER | RIGHT] & [TOP | CENTER | BOTTOM | BASELINE]
+  textAlign (CENTER, CENTER);
+
   textFont(titleFont, 20); //Change the number until it fits, largest font size
   text(buttonText, buttonX, buttonY, buttonWidth, buttonHeight);
   fill(255); //Reset to white for rest of the program
