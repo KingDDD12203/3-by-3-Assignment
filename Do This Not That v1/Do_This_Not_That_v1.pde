@@ -51,8 +51,8 @@ void population() {
   circleWidth = width*1/8;
   circleHeight = height*1/8;
 }
-String buttonText1= "Click Me";
-String buttonText2= "Or Me";
+String buttonText1= "This One";
+String buttonText2= "Or This One";
 PFont titleFont;
 color orange = #FF911A;
 
