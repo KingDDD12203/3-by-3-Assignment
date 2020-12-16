@@ -11,7 +11,3 @@ float button1X, button1Y, button1Width, button1Height;
 float button2X, button2Y, button2Width, button2Height;
 float button3X, button3Y, button3Width, button3Height;
 float button4X, button4Y, button4Width, button4Height;
-
-
-  }
-}
