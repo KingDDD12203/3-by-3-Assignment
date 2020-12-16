@@ -42,14 +42,14 @@ void population() {
   buttonY2 = height*3/4;;
   buttonWidth2 = buttonWidth1;
   buttonHeight2 = buttonHeight1;
-  rectDisplayX = width*1/8;
-  rectDisplayY = height*1/8;
+  rectDisplayX = width*1/10;
+  rectDisplayY = height*1/10;
   rectDisplayWidth = buttonWidth1;
   rectDisplayHeight = buttonWidth1;
-  circleX = width*6/8;
-  circleY = height*1/8;
-  circleWidth = width*1/8;
-  circleHeight = height*1/8;
+  circleX = width*6/9;
+  circleY = height*1/9;
+  circleWidth = width*1/9;
+  circleHeight = height*1/9;
 }
 String buttonText1= "This One";
 String buttonText2= "Or This One";
