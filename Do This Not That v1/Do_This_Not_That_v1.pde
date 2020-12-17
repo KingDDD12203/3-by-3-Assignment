@@ -1,7 +1,7 @@
 // Global Variables
 float buttonX1, buttonY1, buttonWidth1, buttonHeight1;
 float buttonX2, buttonY2, buttonWidth2, buttonHeight2;
-float rectDisplayX, rectDisplayY, rectDisplayWidth, rectDisplayHeight;
+float circle2X, circle2Y, circle2Width, circle2Height;
 float circleX, circleY, circleWidth, circleHeight;
 Boolean rectOn=false, circleOn=false;
 color black=#000000;
@@ -18,7 +18,7 @@ void draw() {
   textDraw1();
   rect(buttonX2, buttonY2, buttonWidth2, buttonHeight2);
   textDraw2();
-  if (rectOn == true && circleOn == false) rect(rectDisplayX, rectDisplayY, rectDisplayWidth, rectDisplayHeight);
+  if (rectOn == true && circleOn == false) ellipse(circle2X, circle2Y, circle2Width, circle2Height);
   if (rectOn == false && circleOn == true) ellipse(circleX, circleY, circleWidth, circleHeight);
 }//End draw()
 
@@ -42,10 +42,10 @@ void population() {
   buttonY2 = height*3/4;;
   buttonWidth2 = buttonWidth1;
   buttonHeight2 = buttonHeight1;
-  rectDisplayX = width*1/10;
-  rectDisplayY = height*1/10;
-  rectDisplayWidth = buttonWidth1;
-  rectDisplayHeight = buttonWidth1;
+  circle2X = width*1/10;
+  circle2Y = height*1/10;
+  circle2Width = buttonWidth1;
+ circle2Height = buttonWidth1;
   circleX = width*6/9;
   circleY = height*1/9;
   circleWidth = width*1/9;
