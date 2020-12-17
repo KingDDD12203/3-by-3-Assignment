@@ -1,6 +1,6 @@
 // Global Variables
 float buttonX, buttonY, buttonWidth, buttonHeight;
-float rectDisplayX, rectDisplayY, rectDisplayWidth, rectDisplayHeight;
+float circle2X, circle2Y, circle2Width, circle2Height;
 float circleX, circleY, circleWidth, circleHeight;
 Boolean rectOn=false, circleOn=false;
 color black=#000000;
@@ -15,7 +15,7 @@ void draw() {
   background(black);
   rect(buttonX, buttonY, buttonWidth, buttonHeight);
   textDraw();
-  if (rectOn == true && circleOn == false) rect(rectDisplayX, rectDisplayY, rectDisplayWidth, rectDisplayHeight);
+  if (rectOn == true && circleOn == false) ellipse(circle2X, circle2Y, circle2Width, circle2Height);
   if (rectOn == false && circleOn == true) ellipse(circleX, circleY, circleWidth, circleHeight);
 }//End draw()
 
@@ -39,14 +39,14 @@ void population() {
   buttonY = height/2;
   buttonWidth = width*1/5;
   buttonHeight = height*1/5;
-  rectDisplayX = width*1/7;
-  rectDisplayY = height*1/7;
-  rectDisplayWidth = width*1/6;
-  rectDisplayHeight = height*1/6;
-  circleX = width*6/8;
-  circleY = height*1/8;
-  circleWidth = width*1/8;
-  circleHeight = height*1/8;
+  circle2X = width*1/7;
+  circle2Y = height*1/7;
+  circle2Width = width*1/6;
+  circle2Height = height*1/6;
+  circleX = width*6/9;
+  circleY = height*1/9;
+  circleWidth = width*1/9;
+  circleHeight = height*1/9;
 }
 
 String buttonText= "Click This";
@@ -61,10 +61,10 @@ void textSetup() { //To Main Program
 }//End textSetup
 
 void textDraw() { //To Main Program
-
+  //Note: visualization rectangle is in main program
   fill(orange); //Ink, hexidecimal copied from Color Selector
-  textAlign (CENTER, CENTER);
-
+  textAlign (CENTER, CENTER); //Align X&Y, see Processing.org / Reference
+  //Values: [LEFT | CENTER | RIGHT] & [TOP | CENTER | BOTTOM | BASELINE]
   textFont(titleFont, 20); //Change the number until it fits, largest font size
   text(buttonText, buttonX, buttonY, buttonWidth, buttonHeight);
   fill(255); //Reset to white for rest of the program
