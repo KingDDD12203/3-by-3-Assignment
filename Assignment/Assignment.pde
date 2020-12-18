@@ -26,7 +26,7 @@ void setup() {
   pt9Y = pt10Y = pt11Y = pt12Y = height*2/3;
   pt13Y = pt14Y = pt15Y = pt16Y= height*3/3;
   //
-  //
+  // 
    button1X = width * 1/3 * 1/3; //Section 1, subsection 1
    button1Y = height * 1/3 * 1/3; //Section 1, subsection 1
    button1Width = width * 1/3 * 1/3;
@@ -43,7 +43,7 @@ void setup() {
    button3Y = height * 14/16; //Section 3, subsection 4: denominator is 3*5, numerator is counted
    button3Width = width * 1/3 * 1/5;
    button3Height = height * 1/3 * 1/5;
-// 
+//
    button4X = width*11/15;
    button4Y = height*1/15;
    button4Width = width*3/15;
