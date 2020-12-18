@@ -32,8 +32,8 @@ void setup() {
    button1Width = width * 1/3 * 1/3;
    button1Height = height * 1/3 * 1/3;
    //
-   //
-   button2X = width * 3/6; 
+   // 
+   button2X = width * 3/6;
    button2Y = height * 2/6 ;
    button2Width = width * 1/3 * 1/2;
    button2Height = height * 1/3 * 1/2;
