@@ -25,8 +25,8 @@ void setup() {
   pt5Y = pt6Y = pt7Y = pt8Y = height*1/3;
   pt9Y = pt10Y = pt11Y = pt12Y = height*2/3;
   pt13Y = pt14Y = pt15Y = pt16Y= height*3/3;
+  // 
   //
-  //  
    button1X = width * 1/3 * 1/3; //Section 1, subsection 1
    button1Y = height * 1/3 * 1/3; //Section 1, subsection 1
    button1Width = width * 1/3 * 1/3;
