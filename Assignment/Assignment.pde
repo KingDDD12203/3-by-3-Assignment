@@ -1,7 +1,5 @@
 //Global Variables
-color circleRed = #FF0303, white=255, black=0, pink=#FA81EE, yellow=#FFD04D;
-color orange=#FFA703;
-Boolean turnOnOrange=false, turnOnPink=false, turnOnYellow=false;
+color circleRed = #FF0303,
 float ptDiameter, rectWidth, rectHeight;
 float pt1X, pt1Y, pt2X, pt2Y, pt3X, pt3Y, pt4X, pt4Y;
 float pt5X, pt5Y, pt6X, pt6Y, pt7X, pt7Y, pt8X, pt8Y;
@@ -28,4 +26,3 @@ void setup() {
   pt9Y = pt10Y = pt11Y = pt12Y = height*2/3;
   pt13Y = pt14Y = pt15Y = pt16Y= height*3/3;
   //
-  
